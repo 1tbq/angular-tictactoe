@@ -1,0 +1,45 @@
+<!-- <div class="container">
+    <div class="">
+        <div class="row">
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+        </div>
+        <div class="row">
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+        </div>
+        <div class="row">
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+        </div>
+    </div>
+</div> -->
+<div class="container">
+  <h1 class="display-1 text-center main-heading mt-2">TicTacToe</h1>
+
+  <div class="wrapper display-1">  
+<div class="game">
+  <div class="row">
+    <div id="0_0" class="cell" (click)="place($event)" class="col-sm-4 cell incell"></div>
+    <div id="1_0" class="cell" (click)="place($event)" class="col-sm-4 cell incell"></div>
+    <div id="2_0" class="cell" (click)="place($event)" class="col-sm-4 cell incell"></div>
+  </div>
+  <div class="row">
+    <div id="0_1" class="cell" (click)="place($event)" class="col-sm-4 cell incell"></div>
+    <div id="1_1" class="cell" (click)="place($event)" class="col-sm-4 cell incell"></div>
+    <div id="2_1" class="cell" (click)="place($event)" class="col-sm-4 cell incell"></div>
+  </div>
+  <div class="row">
+    <div id="0_2" class="cell" (click)="place($event)" class="col-sm-4 cell incell"></div>
+    <div id="1_2" class="cell" (click)="place($event)" class="col-sm-4 cell incell"></div>
+    <div id="2_2" class="cell" (click)="place($event)" class="col-sm-4 cell incell"></div>
+  </div>
+</div>
+</div>
+<div class="reset-button mt-5">
+  <button (click)="reset()" type="button" class="actual-button btn btn-primary btn-block">Reset</button>
+</div>
+</div>
