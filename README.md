@@ -1,2 +1,2 @@
 # angular-tictactoe
-simple tictactoe created using angular 
+simple tictactoe game created using angular 
